@@ -110,11 +110,10 @@
   };
 
   function finalCalculations() {
-    const possibleSchedule = {...FIXED_SCHEDULE};
     if (OPT_DEVICES.length > 0){
-      trySchedule(possibleSchedule, 0);
+      trySchedule(FIXED_SCHEDULE, 0);
     } else {
-      calculateScheduleCost(possibleSchedule);
+      calculateScheduleCost(FIXED_SCHEDULE);
     }
   };
 

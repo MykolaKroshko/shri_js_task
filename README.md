@@ -1,9 +1,11 @@
-# Задание 3 — реализовать алгоритм
+Developed using vanilla javascript.
 
-В этом репозитории находятся материалы тестового задания по JavaScript для [14-й Школы разработки интерфейсов](https://academy.yandex.ru/events/frontend/shri_msk-2018-2) (осень 2018, Москва, Санкт-Петербург, Симферополь).
+No additional libraries needed.
 
-Примеры: 
+To run project just open index.html file in browser.
 
-- [входные данные](./data/input.json)
-- [выходные данные](./data/output.json)
+Project could be opened as it is in Firefox or MS Edge.
+
+Chromium browsers (Chrome, Opera, Yandex etc) will block XMLHttpRequest that imports JSON file with input data.
+For those browsers server layer is required.
 
